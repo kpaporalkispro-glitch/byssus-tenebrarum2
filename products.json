@@ -1,0 +1,90 @@
+[
+  {
+    "id": "collier-elise",
+    "name": "Collier Élise",
+    "category": "Colliers",
+    "stone": "Améthyste",
+    "price": 89,
+    "kind": "pendant",
+    "color": "#79429c",
+    "desc": "Collier en micro-macramé, améthyste et détails bronze.",
+    "image": "assets/products/collier-elise.svg"
+  },
+  {
+    "id": "pendentif-nebuleuse",
+    "name": "Pendentif Nébuleuse",
+    "category": "Pendentifs",
+    "stone": "Labradorite",
+    "price": 79,
+    "kind": "pendant",
+    "color": "#4c82a7",
+    "desc": "Pendentif sobre en micro-macramé et labradorite.",
+    "image": "assets/products/pendentif-nebuleuse.svg"
+  },
+  {
+    "id": "bracelet-solene",
+    "name": "Bracelet Séléné",
+    "category": "Bracelets",
+    "stone": "Pierre de lune",
+    "price": 49,
+    "kind": "bracelet",
+    "color": "#d9d8d3",
+    "desc": "Bracelet ajustable à pierre centrale.",
+    "image": "assets/products/bracelet-solene.svg"
+  },
+  {
+    "id": "boucles-aurore",
+    "name": "Boucles Aurore",
+    "category": "Boucles d’oreilles",
+    "stone": "Améthyste",
+    "price": 45,
+    "kind": "earrings",
+    "color": "#8551a6",
+    "desc": "Boucles légères, pierre et fil tressé.",
+    "image": "assets/products/boucles-aurore.svg"
+  },
+  {
+    "id": "chaine-lune",
+    "name": "Chaîne de taille Lune",
+    "category": "Ceintures & chaînes",
+    "stone": "Pierre de lune",
+    "price": 69,
+    "kind": "waist",
+    "color": "#d7d5cb",
+    "desc": "Chaîne fine et discrète, pendentif central.",
+    "image": "assets/products/chaine-lune.svg"
+  },
+  {
+    "id": "bracelet-orphee",
+    "name": "Bracelet Orphée",
+    "category": "Bracelets",
+    "stone": "Onyx",
+    "price": 52,
+    "kind": "bracelet",
+    "color": "#1a1a1d",
+    "desc": "Bracelet en fil noir et onyx poli.",
+    "image": "assets/products/bracelet-orphee.svg"
+  },
+  {
+    "id": "pendentif-sakura",
+    "name": "Pendentif Sakura",
+    "category": "Pendentifs",
+    "stone": "Quartz rose",
+    "price": 72,
+    "kind": "pendant",
+    "color": "#d39aa8",
+    "desc": "Pendentif quartz rose, tissage fin.",
+    "image": "assets/products/pendentif-sakura.svg"
+  },
+  {
+    "id": "ensemble-lunaire",
+    "name": "Ensemble Lunaire",
+    "category": "Ensembles couple",
+    "stone": "Améthyste & Onyx",
+    "price": 92,
+    "kind": "bracelet",
+    "color": "#6c4c88",
+    "desc": "Duo de bracelets assortis, simples et ajustables.",
+    "image": "assets/products/ensemble-lunaire.svg"
+  }
+]
