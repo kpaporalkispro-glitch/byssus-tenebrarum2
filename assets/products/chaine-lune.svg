@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+    <defs>
+      <radialGradient id="bg" cx="50%" cy="45%" r="70%">
+        <stop offset="0%" stop-color="#21182a"/>
+        <stop offset="55%" stop-color="#0d1016"/>
+        <stop offset="100%" stop-color="#05070a"/>
+      </radialGradient>
+      <filter id="glow"><feGaussianBlur stdDeviation="9" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    </defs>
+    <rect width="800" height="500" fill="url(#bg)"/>
+    <circle cx="100" cy="110" r="70" fill="#7c3a77" opacity=".10"/>
+    <circle cx="690" cy="390" r="110" fill="#a46039" opacity=".08"/>
+    <g filter="url(#glow)">
+        <path d="M135 245 C265 335 535 335 665 245" fill="none" stroke="#c28e51" stroke-width="7"/>
+        <path d="M150 265 C290 345 510 345 650 265" fill="none" stroke="#2a2032" stroke-width="12"/>
+        <path d="M400 310 v95" stroke="#c28e51" stroke-width="5"/>
+        <ellipse cx="400" cy="415" rx="26" ry="34" fill="#d7d5cb" stroke="#c28e51" stroke-width="6"/>
+        <circle cx="270" cy="325" r="9" fill="#d7d5cb"/><circle cx="530" cy="325" r="9" fill="#d7d5cb"/>
+        </g>
+    <text x="36" y="458" fill="#e7dcc8" font-size="28" font-family="Georgia, serif">Chaîne de taille Lune</text>
+    </svg>

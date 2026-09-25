@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+    <defs>
+      <radialGradient id="bg" cx="50%" cy="45%" r="70%">
+        <stop offset="0%" stop-color="#21182a"/>
+        <stop offset="55%" stop-color="#0d1016"/>
+        <stop offset="100%" stop-color="#05070a"/>
+      </radialGradient>
+      <filter id="glow"><feGaussianBlur stdDeviation="9" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    </defs>
+    <rect width="800" height="500" fill="url(#bg)"/>
+    <circle cx="100" cy="110" r="70" fill="#7c3a77" opacity=".10"/>
+    <circle cx="690" cy="390" r="110" fill="#a46039" opacity=".08"/>
+    <g filter="url(#glow)">
+        <ellipse cx="400" cy="290" rx="215" ry="78" fill="none" stroke="#15111b" stroke-width="34"/>
+        <ellipse cx="400" cy="290" rx="205" ry="70" fill="none" stroke="#2f2437" stroke-width="8" stroke-dasharray="8 10"/>
+        <ellipse cx="400" cy="290" rx="52" ry="42" fill="#6c4c88" stroke="#c28e51" stroke-width="8"/>
+        <ellipse cx="400" cy="290" rx="30" ry="22" fill="#d9c7e8" opacity=".35"/>
+        </g>
+    <text x="36" y="458" fill="#e7dcc8" font-size="28" font-family="Georgia, serif">Ensemble Lunaire</text>
+    </svg>
