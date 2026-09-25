@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Produit · Byssus Tenebrarum</title>
+<meta name="description" content="Bijoux artisanaux en micro-macramé, pierres naturelles et créations personnalisées.">
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<div class="utility">
+  <span>✋ Bijoux faits main en micro-macramé</span>
+  <span>◇ Pierres naturelles et authentiques</span>
+  <span>⌖ Atelier artisanal à Strasbourg</span>
+  <span class="spacer"></span>
+  <span>🇫🇷 FR</span><span>🚚 Livraison offerte dès 80€</span><span>🎁 Emballage soigné</span>
+</div>
+<header class="site-header">
+  <nav class="nav left-nav">
+    <a href="index.html">Accueil</a>
+    <a href="collections.html">Collections</a>
+    <a href="creation.html">Créer mon bijou</a>
+  </nav>
+  <a class="brand" href="index.html" aria-label="Byssus Tenebrarum">
+    <img src="assets/logo/byssus-tenebrarum-logo.jpg" alt="Logo Byssus Tenebrarum">
+  </a>
+  <nav class="nav right-nav">
+    <a href="pierres.html">Pierres & Vertus</a>
+    <a href="apropos.html">À propos</a>
+    <a href="contact.html">Contact</a>
+    <a href="collections.html" aria-label="Recherche">⌕</a>
+    <a href="#" aria-label="Compte">♙</a>
+    <a href="cart.html" class="cart-link" aria-label="Panier">👜 <b id="cartCount">0</b></a>
+  </nav>
+</header>
+
+<main>
+<section id="productDetail" class="product-detail">
+  <div class="product-gallery">
+    <div class="thumbs" id="productThumbs"></div>
+    <div class="main-product-image"><img id="productImage" alt=""></div>
+  </div>
+  <div class="product-info">
+    <p class="eyebrow" id="productCategory"></p>
+    <h1 id="productName"></h1>
+    <p class="product-sub" id="productStone"></p>
+    <div class="price" id="productPrice"></div>
+    <p id="productDescription"></p>
+    <div class="feature-row"><span>◇ Pierre naturelle</span><span>✋ Fabrication artisanale</span><span>✦ Petite série</span></div>
+    <label class="field">Choix de la pierre
+      <select id="productVariant"><option>Labradorite</option><option>Améthyste</option><option>Pierre de lune</option><option>Onyx</option><option>Quartz rose</option></select>
+    </label>
+    <div class="stock">● En stock · Expédition sous 2 à 4 jours ouvrés</div>
+    <div class="qty-row"><button id="minusQty">−</button><span id="qtyValue">1</span><button id="plusQty">+</button></div>
+    <div class="actions"><button class="btn primary" id="addDetailToCart">Ajouter au panier</button><button class="btn ghost" id="buyNow">Acheter maintenant</button></div>
+  </div>
+</section>
+<section class="section split-info">
+  <div><p class="eyebrow">DESCRIPTION</p><h2>Une pièce sobre et singulière</h2><p>Chaque bijou est tissé à la main. Les petites variations du fil, du nœud et de la pierre font partie de son caractère artisanal.</p></div>
+  <div><p class="eyebrow">ENTRETIEN</p><p>Évitez l’immersion prolongée, les parfums et produits abrasifs. Rangez la pièce à plat dans sa pochette.</p></div>
+</section>
+<section class="section"><div class="section-title"><h2>Vous aimerez aussi</h2></div><div id="relatedProducts" class="product-grid compact"></div></section>
+</main>
+
+<footer class="footer">
+  <div class="footer-brand">
+    <img src="assets/logo/byssus-tenebrarum-logo.jpg" alt="">
+    <div><strong>BYSSUS TENEBRARUM</strong><small>Bijoux artisanaux en micro-macramé</small></div>
+  </div>
+  <div><h4>Boutique</h4><a href="collections.html">Collections</a><a href="creation.html">Créer mon bijou</a><a href="pierres.html">Pierres & Vertus</a></div>
+  <div><h4>Aide</h4><a href="contact.html">Contact</a><a href="cart.html">Panier</a><a href="apropos.html">À propos</a></div>
+  <div><h4>Rejoignez notre univers</h4><form class="newsletter" onsubmit="event.preventDefault(); alert('Merci ! Votre inscription a été prise en compte.');"><input type="email" placeholder="Votre e-mail" required><button>→</button></form></div>
+</footer>
+<div class="legal">© 2026 BYSSUS TENEBRARUM · Site prototype GitHub Pages · Paiement à connecter à votre prestataire.</div>
+
+<script src="js/main.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/product.js"></script>
+</body>
+</html>

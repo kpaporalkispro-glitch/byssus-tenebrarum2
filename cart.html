@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Panier · Byssus Tenebrarum</title>
+<meta name="description" content="Bijoux artisanaux en micro-macramé, pierres naturelles et créations personnalisées.">
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<div class="utility">
+  <span>✋ Bijoux faits main en micro-macramé</span>
+  <span>◇ Pierres naturelles et authentiques</span>
+  <span>⌖ Atelier artisanal à Strasbourg</span>
+  <span class="spacer"></span>
+  <span>🇫🇷 FR</span><span>🚚 Livraison offerte dès 80€</span><span>🎁 Emballage soigné</span>
+</div>
+<header class="site-header">
+  <nav class="nav left-nav">
+    <a href="index.html">Accueil</a>
+    <a href="collections.html">Collections</a>
+    <a href="creation.html">Créer mon bijou</a>
+  </nav>
+  <a class="brand" href="index.html" aria-label="Byssus Tenebrarum">
+    <img src="assets/logo/byssus-tenebrarum-logo.jpg" alt="Logo Byssus Tenebrarum">
+  </a>
+  <nav class="nav right-nav">
+    <a href="pierres.html">Pierres & Vertus</a>
+    <a href="apropos.html">À propos</a>
+    <a href="contact.html">Contact</a>
+    <a href="collections.html" aria-label="Recherche">⌕</a>
+    <a href="#" aria-label="Compte">♙</a>
+    <a href="cart.html" class="cart-link" aria-label="Panier">👜 <b id="cartCount">0</b></a>
+  </nav>
+</header>
+
+<main>
+<section class="page-hero checkout-title">
+  <div><p class="eyebrow">COMMANDE</p><h1>Finaliser ma commande</h1><p>Vos bijoux uniques, bientôt entre vos mains.</p></div>
+</section>
+<div class="checkout-stepper"><span class="active">1 Panier</span><span>2 Informations</span><span>3 Livraison</span><span>4 Paiement</span></div>
+<section class="checkout-grid">
+  <div class="checkout-form">
+    <div class="checkout-block"><h3>1. Vos informations</h3><div class="two-col"><label>Prénom<input id="firstName"></label><label>Nom<input id="lastName"></label></div><label>E-mail<input type="email" id="email"></label></div>
+    <div class="checkout-block"><h3>2. Adresse de livraison</h3><div class="two-col"><label>Pays<select><option>France</option></select></label><label>Adresse<input id="address"></label></div><div class="two-col"><label>Code postal<input id="zip"></label><label>Ville<input id="city"></label></div></div>
+    <div class="checkout-block"><h3>3. Mode de livraison</h3><label class="radio-line"><input type="radio" name="shipping" checked> Livraison standard — gratuite dès 80 €</label><label class="radio-line"><input type="radio" name="shipping"> Livraison express — 12 €</label></div>
+    <div class="checkout-block"><h3>4. Mode de paiement</h3><p class="note">Pour GitHub Pages, branchez ce bouton vers votre prestataire de paiement (Stripe Checkout, PayPal, etc.). Ne collectez pas les numéros de carte dans ce site statique.</p></div>
+  </div>
+  <aside class="order-summary">
+    <h2>Votre panier</h2>
+    <div id="cartItems"></div>
+    <div class="promo"><input id="promoCode" placeholder="Code promotionnel"><button id="applyPromo">Appliquer</button></div>
+    <div class="totals"><span>Sous-total</span><b id="subtotal">0,00 €</b><span>Réduction</span><b id="discount">0,00 €</b><span>Livraison</span><b id="shippingCost">Gratuite</b><span class="total-label">Total TTC</span><strong id="grandTotal">0,00 €</strong></div>
+    <button class="btn primary full" id="checkoutButton">🔒 Payer en sécurité →</button>
+    <p class="micro">Paiement sécurisé à connecter à votre prestataire.</p>
+  </aside>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="footer-brand">
+    <img src="assets/logo/byssus-tenebrarum-logo.jpg" alt="">
+    <div><strong>BYSSUS TENEBRARUM</strong><small>Bijoux artisanaux en micro-macramé</small></div>
+  </div>
+  <div><h4>Boutique</h4><a href="collections.html">Collections</a><a href="creation.html">Créer mon bijou</a><a href="pierres.html">Pierres & Vertus</a></div>
+  <div><h4>Aide</h4><a href="contact.html">Contact</a><a href="cart.html">Panier</a><a href="apropos.html">À propos</a></div>
+  <div><h4>Rejoignez notre univers</h4><form class="newsletter" onsubmit="event.preventDefault(); alert('Merci ! Votre inscription a été prise en compte.');"><input type="email" placeholder="Votre e-mail" required><button>→</button></form></div>
+</footer>
+<div class="legal">© 2026 BYSSUS TENEBRARUM · Site prototype GitHub Pages · Paiement à connecter à votre prestataire.</div>
+
+<script src="js/main.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/checkout.js"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Accueil · Byssus Tenebrarum</title>
+<meta name="description" content="Bijoux artisanaux en micro-macramé, pierres naturelles et créations personnalisées.">
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<div class="utility">
+  <span>✋ Bijoux faits main en micro-macramé</span>
+  <span>◇ Pierres naturelles et authentiques</span>
+  <span>⌖ Atelier artisanal à Strasbourg</span>
+  <span class="spacer"></span>
+  <span>🇫🇷 FR</span><span>🚚 Livraison offerte dès 80€</span><span>🎁 Emballage soigné</span>
+</div>
+<header class="site-header">
+  <nav class="nav left-nav">
+    <a href="index.html">Accueil</a>
+    <a href="collections.html">Collections</a>
+    <a href="creation.html">Créer mon bijou</a>
+  </nav>
+  <a class="brand" href="index.html" aria-label="Byssus Tenebrarum">
+    <img src="assets/logo/byssus-tenebrarum-logo.jpg" alt="Logo Byssus Tenebrarum">
+  </a>
+  <nav class="nav right-nav">
+    <a href="pierres.html">Pierres & Vertus</a>
+    <a href="apropos.html">À propos</a>
+    <a href="contact.html">Contact</a>
+    <a href="collections.html" aria-label="Recherche">⌕</a>
+    <a href="#" aria-label="Compte">♙</a>
+    <a href="cart.html" class="cart-link" aria-label="Panier">👜 <b id="cartCount">0</b></a>
+  </nav>
+</header>
+
+<main>
+<section class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow">BIJOUX ARTISANAUX EN MICRO-MACRAMÉ</p>
+    <h1>L’élégance<br>du mystère</h1>
+    <p>Des bijoux faits main, inspirés par la nature, les cultures et les énergies des pierres naturelles.</p>
+    <div class="actions"><a class="btn primary" href="collections.html">Découvrir nos collections →</a><a class="btn ghost" href="creation.html">Créer mon bijou</a></div>
+    <div class="trust-row"><span>◇ Pierres naturelles</span><span>✋ Fait main</span><span>✦ Pièces uniques</span></div>
+  </div>
+  <div class="hero-art">
+    <div class="jewel-stage"><img src="assets/products/collier-elise.svg" alt="Collier Élise"></div>
+    <div class="motto">DES PIERRES<br>UNE HISTOIRE<br>VOTRE ESSENCE</div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-title"><h2>Nos collections</h2></div>
+  <div class="category-grid">
+    <a class="category-card" href="collections.html?cat=Colliers"><img src="assets/products/collier-elise.svg"><span>Colliers →</span></a>
+    <a class="category-card" href="collections.html?cat=Pendentifs"><img src="assets/products/pendentif-nebuleuse.svg"><span>Pendentifs →</span></a>
+    <a class="category-card" href="collections.html?cat=Bracelets"><img src="assets/products/bracelet-solene.svg"><span>Bracelets →</span></a>
+    <a class="category-card" href="collections.html?cat=Ceintures"><img src="assets/products/chaine-lune.svg"><span>Ceintures & chaînes →</span></a>
+    <a class="category-card" href="collections.html?cat=Boucles"><img src="assets/products/boucles-aurore.svg"><span>Boucles d’oreilles →</span></a>
+    <a class="category-card" href="collections.html?cat=Couple"><img src="assets/products/ensemble-lunaire.svg"><span>Ensembles couple →</span></a>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-title"><h2>Nos bestsellers</h2><a href="collections.html">Voir toute la boutique →</a></div>
+  <div id="homeProducts" class="product-grid compact"></div>
+</section>
+
+<section class="stones-band">
+  <div><p class="eyebrow">PIERRES & VERTUS</p><h2>Une matière, une intention</h2><p>Améthyste, labradorite, pierre de lune, onyx, quartz rose : choisissez la pierre qui raconte votre création.</p><a class="btn ghost" href="pierres.html">Découvrir les pierres →</a></div>
+  <div class="stone-pills"><span>Améthyste · Apaisement</span><span>Labradorite · Intuition</span><span>Pierre de lune · Équilibre</span><span>Onyx · Ancrage</span><span>Quartz rose · Douceur</span></div>
+</section>
+
+<section class="custom-cta">
+  <div><p class="eyebrow">SUR-MESURE</p><h2>Créer mon bijou</h2><p>Composez votre pièce en six étapes ludiques : forme, univers, pierre, couleurs, intention et résumé.</p></div>
+  <a class="btn primary" href="creation.html">Commencer ma création →</a>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="footer-brand">
+    <img src="assets/logo/byssus-tenebrarum-logo.jpg" alt="">
+    <div><strong>BYSSUS TENEBRARUM</strong><small>Bijoux artisanaux en micro-macramé</small></div>
+  </div>
+  <div><h4>Boutique</h4><a href="collections.html">Collections</a><a href="creation.html">Créer mon bijou</a><a href="pierres.html">Pierres & Vertus</a></div>
+  <div><h4>Aide</h4><a href="contact.html">Contact</a><a href="cart.html">Panier</a><a href="apropos.html">À propos</a></div>
+  <div><h4>Rejoignez notre univers</h4><form class="newsletter" onsubmit="event.preventDefault(); alert('Merci ! Votre inscription a été prise en compte.');"><input type="email" placeholder="Votre e-mail" required><button>→</button></form></div>
+</footer>
+<div class="legal">© 2026 BYSSUS TENEBRARUM · Site prototype GitHub Pages · Paiement à connecter à votre prestataire.</div>
+
+<script src="js/main.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/home.js"></script>
+</body>
+</html>

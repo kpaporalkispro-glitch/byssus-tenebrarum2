@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contact · Byssus Tenebrarum</title>
+<meta name="description" content="Bijoux artisanaux en micro-macramé, pierres naturelles et créations personnalisées.">
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<div class="utility">
+  <span>✋ Bijoux faits main en micro-macramé</span>
+  <span>◇ Pierres naturelles et authentiques</span>
+  <span>⌖ Atelier artisanal à Strasbourg</span>
+  <span class="spacer"></span>
+  <span>🇫🇷 FR</span><span>🚚 Livraison offerte dès 80€</span><span>🎁 Emballage soigné</span>
+</div>
+<header class="site-header">
+  <nav class="nav left-nav">
+    <a href="index.html">Accueil</a>
+    <a href="collections.html">Collections</a>
+    <a href="creation.html">Créer mon bijou</a>
+  </nav>
+  <a class="brand" href="index.html" aria-label="Byssus Tenebrarum">
+    <img src="assets/logo/byssus-tenebrarum-logo.jpg" alt="Logo Byssus Tenebrarum">
+  </a>
+  <nav class="nav right-nav">
+    <a href="pierres.html">Pierres & Vertus</a>
+    <a href="apropos.html">À propos</a>
+    <a href="contact.html">Contact</a>
+    <a href="collections.html" aria-label="Recherche">⌕</a>
+    <a href="#" aria-label="Compte">♙</a>
+    <a href="cart.html" class="cart-link" aria-label="Panier">👜 <b id="cartCount">0</b></a>
+  </nav>
+</header>
+
+<main>
+<section class="page-hero"><div><p class="eyebrow">CONTACT</p><h1>Parlons de votre création</h1><p>Une question sur un bijou, une pierre ou une demande sur-mesure ?</p></div></section>
+<section class="contact-layout">
+<form class="contact-form" onsubmit="event.preventDefault(); this.reset(); alert('Message prêt à être envoyé — connectez ce formulaire à votre service e-mail.');">
+<label>Nom<input required></label><label>E-mail<input type="email" required></label>
+<label>Objet<select><option>Question produit</option><option>Création sur-mesure</option><option>Commande</option><option>Autre</option></select></label>
+<label>Message<textarea rows="7" required></textarea></label>
+<button class="btn primary">Envoyer</button>
+</form>
+<div class="contact-card"><h3>Atelier</h3><p>Strasbourg</p><h3>Réponse</h3><p>Sous 1 à 2 jours ouvrés.</p><h3>Sur-mesure</h3><p>Pour une demande précise, utilisez aussi le configurateur “Créer mon bijou”.</p></div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="footer-brand">
+    <img src="assets/logo/byssus-tenebrarum-logo.jpg" alt="">
+    <div><strong>BYSSUS TENEBRARUM</strong><small>Bijoux artisanaux en micro-macramé</small></div>
+  </div>
+  <div><h4>Boutique</h4><a href="collections.html">Collections</a><a href="creation.html">Créer mon bijou</a><a href="pierres.html">Pierres & Vertus</a></div>
+  <div><h4>Aide</h4><a href="contact.html">Contact</a><a href="cart.html">Panier</a><a href="apropos.html">À propos</a></div>
+  <div><h4>Rejoignez notre univers</h4><form class="newsletter" onsubmit="event.preventDefault(); alert('Merci ! Votre inscription a été prise en compte.');"><input type="email" placeholder="Votre e-mail" required><button>→</button></form></div>
+</footer>
+<div class="legal">© 2026 BYSSUS TENEBRARUM · Site prototype GitHub Pages · Paiement à connecter à votre prestataire.</div>
+
+<script src="js/main.js"></script>
+<script src="js/cart.js"></script>
+
+</body>
+</html>
